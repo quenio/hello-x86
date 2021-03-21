@@ -17,7 +17,8 @@ print_character:
 done:
 	hlt
 
-message: .asciz "Hello, World!"
+message:
+	.asciz "Hello, World!"
 
 .fill 510-(.-init), 1, 0
 .word 0xAA55
