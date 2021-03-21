@@ -8,7 +8,7 @@ A small boot loader that displays "Hello, World!" on a x86 computer.
 - Assembler (GCC)
 - Computer Simulator (Qemu)
 
-# Build and Run on Emulator
+## Build and Run on Emulator
 
 $ make run
 
